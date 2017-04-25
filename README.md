@@ -1,6 +1,6 @@
 # npmtest-ember-cli-inline-content
 
-#### test coverage for  [ember-cli-inline-content (v0.4.1)](https://github.com/gdub22/ember-cli-inline-content)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-inline-content.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-inline-content) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-inline-content.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-inline-content)
+#### basic test coverage for  [ember-cli-inline-content (v0.4.1)](https://github.com/gdub22/ember-cli-inline-content)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-inline-content.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-inline-content) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-inline-content.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-inline-content)
 
 #### An ember-cli add-on to render inline scripts, styles, or any content directly into your index.html file
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-inline-content/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-inline-content/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-cli-inline-content/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-cli-inline-content/build/coverage.html/index.html)
 
@@ -77,7 +77,8 @@
     "scripts": {
         "test": "node tests/test-runner.js"
     },
-    "version": "0.4.1"
+    "version": "0.4.1",
+    "bin": {}
 }
 ```
 
